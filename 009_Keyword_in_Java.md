@@ -24,7 +24,7 @@ Khi bạn biên dịch một file Java (`javac MyCode.java`), trình biên dịc
 
 Cú pháp chính là việc sử dụng các từ khóa này một cách chính xác trong các câu lệnh Java.
 
-**Ví dụ 1: Các từ khóa cơ bản và phổ biến**
+#### Ví dụ 1: Các từ khóa cơ bản và phổ biến
 
 ```java
 // 'package': định nghĩa gói chứa lớp này.
@@ -114,4 +114,4 @@ assert value > 0 : "Giá trị phải là số dương";
 * **Lỗi thường gặp:**
 * Lỗi sơ đẳng và phổ biến nhất là cố gắng đặt tên biến, phương thức hoặc lớp trùng với một từ khóa.
 * `String switch = "light";` // Lỗi\! `switch` là từ khóa.
-* `boolean continue = false;` // Lỗi\! `continue` là từ khóa.
+* `boolean continue = false;` // Lỗi\! `continue` là từ khóa
